@@ -7,10 +7,10 @@ c = int(input("c: "))
 
 summa = a+b+c
 tulo = a*b*c
-keskiarvo = a+b+c/3
+keskiarvo = (a+b+c)/3
 
 
 
-print('summa on ',summa)
-print("tulo on",tulo)
-print("keskiarvo on",keskiarvo)
+print(f'summa on ',summa)
+print(f"tulo on",tulo)
+print(f"keskiarvo on",(keskiarvo.2f))
