@@ -7,13 +7,18 @@ biologinen_sukupuoli = input("Syötä biologinen sukukupuoli (mies/nainen):")
 hemoglobiininarvo = float("Anna hemoglobiininarvo (g/l)")
 
 elif sukupuoli "mies":
-    if 134 <= hemoglobiini <= 195:
+
+if 134 <= hemoglobiini<= 195:
         print("Hemoglobiiniarvo on normaali miehillä.")
-    elif hemoglobiini < 134:
+
+elif hemoglobiini < 134:
         print("Hemoglobiiniarvo on alhainen miehillä.")
-    else:
+
+else:
         print("Hemoglobiiniarvo on korkea miehillä.")
+
 elif sukupuoli "nainen":
+
     if 117 <= hemoglobiini <= 175:
         print("Hemoglobiiniarvo on normaali naisilla.")
     elif hemoglobiini < 117:
