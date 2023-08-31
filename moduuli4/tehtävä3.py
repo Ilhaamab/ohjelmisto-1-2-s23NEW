@@ -3,3 +3,4 @@
 # Lopuksi ohjelma tulostaa saaduista luvuista pienimmän ja suurimman.
 
 p = input("Syötä lukuja")
+an")
