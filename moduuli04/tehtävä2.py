@@ -2,6 +2,8 @@
 # niin kauan kunnes käyttäjä antaa negatiivisen tuumamäärän.
 # Sen jälkeen ohjelma lopettaa toimintansa. 1 tuuma = 2,54 cm
 
+tuumat = 1 # käyttäjän antamat tuumat
+
 tuumat = float(input('Anna tuumamäärä (negatiivinen luku lopettaa): '))
 vastaus = tuumat * 2.54
 

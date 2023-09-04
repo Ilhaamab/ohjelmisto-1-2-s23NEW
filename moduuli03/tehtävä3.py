@@ -12,14 +12,14 @@ if sukupuoli == 'nainen':
     if 117 <= hemoglobiininarvo <= 175:
         print("Hemoglobiiniarvo on normaali")
     elif hemoglobiininarvo < 117:
-        print("hemoglobiininarvo alhainen")
+        print("Liian hemoglobiininarvo alhainen")
     else:
-        print("hemoglobiininarvo on korkea")
+        print("Liian hemoglobiininarvo on korkea")
 
 if sukupuoli == 'mies':
     if 134 <= hemoglobiininarvo <= 195:
         print("Hemoglobiiniarvo on normaali")
     elif  hemoglobiininarvo <= 134:
-         print("hemoglobiininarvo alhainen")
+         print("Liian hemoglobiininarvo alhainen")
     else:
-        print("hemoglobiininarvo on korkea")
+        print("Liian hemoglobiininarvo on korkea")

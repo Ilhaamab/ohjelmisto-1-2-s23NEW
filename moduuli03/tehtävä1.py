@@ -6,8 +6,8 @@
 kuhan_pituus = int(input("Mikä on kuhan pituus (cm)?"))
 
 if kuhan_pituus <=37:
-    puuttuva_pituus =37-kuhan_pituus
-    print("kuhan pituus on alamittainen, laske se veteen")
+    puuttuva = 37-kuhan_pituus
+    print(f"kuhan pituus on alamittainen, laske se veteen")
 
 else:
     print("kuhan pituus on ylimittainen ")

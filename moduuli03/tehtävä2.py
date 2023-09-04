@@ -1,4 +1,9 @@
-hyttiluokka = input("Syötä laivan hyttiluokka (LUX, A, B, C): ")
+hyttiluokka = input("Syötä laivan hyttiluokka: ")
+
+#if hyttiluokka == "LUX" or hyttiluokka = "lux":
+#  print("kirjoitit LUX tai lux")
+
+hyttiluokka= str.upper(hyttiluokka)
 
 if hyttiluokka == "LUX":
     print("LUX on parvekkeellinen hytti yläkannella.")
