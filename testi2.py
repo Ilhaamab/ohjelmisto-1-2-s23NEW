@@ -31,3 +31,24 @@ print("1084-3000+4103=",tulos)
 tulos = 60*60*24
 print("60*60*24=",tulos)
 
+#testi
+kokonaisluku = 123
+print("kokonaislukumuuttuja arvo on" +  str(kokonaisluku))
+
+#testi2
+kokonaisluku = int(input("Anna luku:"))
+print("luku on ", kokonaisluku )
+
+
+Kirjoita ohjelma, joka kysyy vuosiluvun ja ilmoittaa, onko annettu vuosi karkausvuosi.
+Vuosi on karkausvuosi, jos se on jaollinen neljällä.
+Sadalla jaolliset vuodet ovat karkausvuosia vain jos ne ovat jaollisia myös neljälläsadalla.
+
+vuosi = input("Anna vuosiluku:")
+
+if vuosi % 4:
+    print("Vuosiluku on karkausvuosi", vuosi)
+
+elif vuosi % 100 and 400:
+    print("on karkausvuosi jos on vain näillä jaollinen")
+

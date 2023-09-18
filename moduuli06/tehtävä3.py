@@ -11,8 +11,6 @@ def muunna_gallonat_litroiksi(gallona_maara):
     litra_maara = gallona_maara * 3.785
     return litra_maara
 
-
-# Pääohjelma
 while True:
     try:
         gallona_maara = float(input("Syötä bensiinin määrä gallonoina (negatiivinen lopettaa): "))

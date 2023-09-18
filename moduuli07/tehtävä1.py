@@ -6,6 +6,9 @@
 
 
 vuodenaika = ("kevät","kesä","syksy","talvi")
+
 järjestysnumerot = int(input("Anna vuodenaika järjestysnumero (1-4): "))
+
 vuodenaika = vuodenaika[järjestysnumerot -1]
+
 print (f"{järjestysnumerot}. vuodenaika on {vuodenaika}.")

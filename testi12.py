@@ -1,11 +1,21 @@
+yritykset = 0
 
-#  testi
-#nimi = input("Anna nimi:")
-#syntymävuosi = input("Anna vuosi:")
-#print(f'Hei {nimi}', olet syntynyt eli  "1990")
+while True:
+    tunnus = input("Anna PIN-koodi: ")
+    yritykset += 1
 
-osa1 = input("Anna 1. osa:- ")
-osa2 = input("Anna 1. osa:- ")
-osa3 = input("Anna 1. osa:- ")
-print("osa1"+"-"+"osa2"+"-"+"osa3")
-("simhala"+"-"+"bimsala"+"-"+"bim!")
+    if tunnus == "1234":
+        onnistui = True
+        break
+
+    if yritykset == 3:
+        onnistui = False
+        break
+
+    # tänne tullaan jos väärin JA ei ole jo kolmea yritystä
+    print("Väärin... yritä uudelleen")
+
+if onnistui:
+    print("PIN-koodi oikein!")
+else:
+    print("Liian monta yritystä...")
