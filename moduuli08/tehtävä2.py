@@ -1,6 +1,5 @@
 import mysql.connector
 
-
 def etsi_kenttätyyppi(iso_country):
     sql = ("""SELECT type, COUNT(*)
     FROM airport
