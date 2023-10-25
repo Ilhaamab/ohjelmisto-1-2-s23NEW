@@ -22,7 +22,7 @@ def etsi_lentokenttä(ident):
 yhteys = mysql.connector.connect(
          host='127.0.0.1',
          port= 3306,
-         database='flight_game',
+         database='demo_game',
          user='root',
          password='Lontoo2023',
          autocommit=True

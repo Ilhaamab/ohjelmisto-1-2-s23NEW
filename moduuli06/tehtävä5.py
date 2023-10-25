@@ -1,18 +1,22 @@
-# Kirjoita ohjelma lentoasematietojen hakemiseksi ja tallentamiseksi.
-# Ohjelma kysyy käyttäjältä, haluaako tämä syöttää uuden lentoaseman, hakea jo syötetyn lentoaseman tiedot vai lopettaa.
-# Jos käyttäjä valitsee uuden lentoaseman syöttämisen, ohjelma kysyy käyttäjältä lentoaseman ICAO-koodin ja nimen.
-# Jos käyttäjä valitsee haun, ohjelma kysyy ICAO-koodin ja tulostaa sitä vastaavan lentoaseman nimen.
-# Jos käyttäjä haluaa lopettaa, ohjelman suoritus päättyy. Käyttäjä saa valita uuden toiminnon
-# miten monta kertaa tahansa aina siihen asti, kunnes hän haluaa lopettaa.
-# (ICAO-koodi on lentoaseman yksilöivä tunniste.
-# Esimerkiksi Helsinki-Vantaan lentoaseman ICAO-koodi on EFHK.
-# Löydät koodeja helposti selaimen avulla.)
+def karsi_parittomat(lista):
+    # Luodaan tyhjä lista, johon tallennetaan parilliset luvut.
+    parilliset = []
 
-lentokentat ()
+    # Käydään läpi jokainen luku listassa.
+    for luku in lista:
+        # Tarkistetaan, onko luku parillinen jakojäännöksen avulla.
+        if luku % 2 == 0:
+            # Jos luku on parillinen, lisätään se parillisten listaan.
+            parilliset.append(luku)
 
-while True:
-    toiminto = str.upper (input("Jos haluat syöttää uuden lentoaseman, syötä A"))
+    return parilliset
 
-    if toiminto = "":
-        break
-        if
+
+# Pääohjelma
+
+if __name__ == "__main__":
+    alkuperainen_lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    karsittu_lista = karsi_parittomat(alkuperainen_lista)
+
+    print("Alkuperäinen lista:", alkuperainen_lista)
+    print("Karsittu lista (ilman parittomia lukuja):", karsittu_lista)

@@ -3,5 +3,6 @@
 # nelinumeroisen koodin, jonka kukin numeromerkki on väliltä 1..6.
 
 
-kolmenumero_koodi =
-nelinumero_koodi =
+koodi3 =("")
+koodi4 =(""
+         "")
